@@ -1,0 +1,10 @@
+.defi_section {
+  width: auto;
+  background-color: #0d0415;
+}
+.defi_section__title {
+  color: map-get($theme-colors, primary);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 35px;
+}

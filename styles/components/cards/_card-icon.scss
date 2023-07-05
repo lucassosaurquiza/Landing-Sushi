@@ -1,0 +1,23 @@
+.card_icon {
+  @include breakpoint(sm) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  @include breakpoint(md) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @include breakpoint(xxl) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.card_icon__image {
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.card_icon__paragraph {
+  color: grey;
+  margin: 8px 0px 0px;
+}

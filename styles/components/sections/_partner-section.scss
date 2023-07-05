@@ -1,0 +1,10 @@
+.partner_section {
+  background-color: black;
+  padding-bottom: 105px;
+  
+}
+.partner_section__title {
+  color: map-get($theme-colors, primary);
+  text-align: center;
+  padding-top: 100px;
+}

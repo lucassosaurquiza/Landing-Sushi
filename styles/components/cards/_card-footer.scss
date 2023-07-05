@@ -1,0 +1,46 @@
+.footer_card {
+  grid-column: span 2;
+  padding: 10px 70px 0px 0px;
+}
+
+.footer_card__container {
+  display: flex;
+  color: white;
+}
+
+.footer_card__image {
+  height: 40px;
+}
+
+.footer_card__paragraph {
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer_card__home {
+  color: grey;
+  font-size: 14px;
+  margin: 12px 0px 0px 0px;
+  font-weight: 400;
+}
+
+.footer_card__icons {
+  display: flex;
+  width: 40%;
+  color: map-get($theme-colors, secondary);
+}
+
+.footer_card__logo {
+  height: 25px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.footer_card__icons {
+  margin: 15px 0px 0px 0px;
+}
+
+.footer_card__logo:hover {
+  color: rgba(128, 128, 128, 0.552);
+}

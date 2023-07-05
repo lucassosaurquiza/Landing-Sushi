@@ -1,0 +1,11 @@
+.community_section {
+    margin: auto;
+    background-color: black;
+}
+.community_section__title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: map-get($theme-colors, primary);
+
+}

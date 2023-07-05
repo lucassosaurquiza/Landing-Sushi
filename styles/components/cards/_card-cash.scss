@@ -1,0 +1,16 @@
+
+.card_cash {
+    border-radius: 10px;
+    padding: 30px 25px 30px;
+    background-color: #202231;
+    color: map-get($theme-colors, primary);
+}
+
+.card_cash__value {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card_cash__text {
+    color: #7f7f7f;
+}

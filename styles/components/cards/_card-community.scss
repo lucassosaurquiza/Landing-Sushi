@@ -1,0 +1,18 @@
+.card_community {
+  background-color: rgb(32, 34, 49);
+  border-radius: 10px;
+}
+
+.card_community__container {
+  padding: 32px;
+}
+
+.card_community__number {
+  color: map-get($theme-colors, primary);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card_community__paragraph {
+  color: map-get($theme-colors, secondary);
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #161522;
+}
+
+.footer__container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(1, 1fr);
+  padding-top: 60px;
+  
+  @include breakpoint(sm) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @include breakpoint(md) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  @include breakpoint(lg) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

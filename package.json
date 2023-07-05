@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "secante": "node-sass -w styles/main.scss -o dist"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  }
+}
